@@ -1,1 +1,1 @@
-buckets= ["ishu-bucket"]
+buckets= ["ishu-bucket7789"]
