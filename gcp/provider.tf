@@ -1,4 +1,4 @@
 provider "google" {
-  project = "sonorous-charge-462106-g6"
+  project = var.project_id
   region  = "us-central1"
 }
