@@ -1,8 +1,8 @@
 buckets= ["ishu-bucket7789"]
 project_id ="sonorous-charge-462106-g6"
 
-/*cluster={
-    demo-cluster={
+ cluster={
+   /*demo-cluster={
         name             = "demo-cluster"
         network           = "default"
         subnetwork        = "default"
@@ -20,5 +20,5 @@ project_id ="sonorous-charge-462106-g6"
             auto_repair  = true
             },
         ]
-    }
-}*/
+    }*/
+}
