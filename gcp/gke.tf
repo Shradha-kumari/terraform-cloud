@@ -1,4 +1,4 @@
-/*module "gke" {
+module "gke" {
   source                     = "terraform-google-modules/kubernetes-engine/google"
   project_id                 = var.project_id
   for_each                   = var.cluster
@@ -10,4 +10,4 @@
   ip_range_pods              = each.value["ip_range_pods"]
   ip_range_services          = each.value ["ip_range_services"]
    node_pools                =  each.value["node_pools"]
-}*/
+}
