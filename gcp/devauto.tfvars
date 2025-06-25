@@ -6,8 +6,10 @@ cluster={
         name             = "demo-cluster"
         network           = "default"
         subnetwork        = "default"
-        ip_range_pods     = "dev-pods"
-        ip_range_services = "dev-services"
+        network           = "gke-vpc"
+        subnetwork        = "gke-subnet"
+        ip_range_pods     = "gke-pods"
+        ip_range_services = "gke-services"
          node_pools = [
             {
             name       = "default-node-pool"
